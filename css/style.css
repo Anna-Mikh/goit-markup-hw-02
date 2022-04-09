@@ -5,10 +5,130 @@
     --accent-color: #ffffff;
 }
 
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+
+    color: var(--primery-text-color);
+    background: #E5E5E5;
+}
+
+li {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/*Logo*/
+.logo {
+    font-family: 'Raleway';
+    color: var(--sekondary-color);
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+.logo-half {
+    font-family: 'Raleway';
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+.logo-half-footer {
+    font-family: 'Raleway';
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+
+/*Navigatin*/
+.nav {
+    color: var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,4;
+    letter-spacing: 0.02em;
+}
+
+.nav-title {
+    list-style:none;
+}
+
+.nav-title .link:hover,
+.nav-title .link:focus {
+    color: var(--sekondary-color);
+}
+
+.nav-secondary {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+
+    color: var(--primery-text-color);
+    text-decoration:none;
+}
+
+.nav-secondary .link:hover,
+.nav-secondary .link:focus {
+    color: var(--sekondary-color);
+}
+
 .text-title {
-    color: var(--title-text-color)
+    color: #212121;
+
+    font-weight: 700;
+    font-size: 14p;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .text {
     color: var(--primery-text-color)
+}
+
+
+.title {
+    color: #212121;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-text {
+    color: #ffffff;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
 }
